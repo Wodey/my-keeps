@@ -1,0 +1,39 @@
+.addkeep {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  background: #fff;
+  box-shadow: 0 0 5px #000;
+  min-width: 120px;
+  padding: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.addkeep--open {
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+  display: flex;
+}
+.close {
+  width: 15px;
+  cursor: pointer;
+}
+.advanced-form {
+  width: 100%;
+}
+
+.advanced-title {
+  color: #ccc;
+  font-size: 1.5rem;
+}
+
+.createkeep {
+  padding: 10px 15px;
+  width: 80%;
+  margin: auto;
+}
